@@ -1,0 +1,40 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+}
+#columns{
+    column-width: 350px;
+    border: 1px solid rgba(0,0,0,0.2);
+    column-gap: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+}
+#columns figure{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+}
+#columns figure img{
+    width: auto; height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+
+
+
+}
+
+#columns figure figcaption{
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+#columns:hover figure:not(:hover){
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+}

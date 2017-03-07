@@ -1,0 +1,163 @@
+* {
+	font-family:'Noto Sans KR',sans-serif;
+}
+.scene.one img {
+  width: 60%;
+  height: 60%;
+	margin-bottom:10px;
+}
+#title {
+	text-align:center;
+	font-family:'Noto Sans KR',sans-serif;
+	font-weight:300;
+}
+.plan{
+	margin-top: 10%;
+  margin-bottom: 5%;
+}
+.plan h4 {
+	text-align:center;
+	font-family:'Noto Sans KR',sans-serif;
+	font-weight:300;
+	font-size:2.5rem;
+	margin-bottom:10%;
+}
+.plan p {
+  text-align: center;
+}
+.plan img {
+	margin-top:20%;
+	padding:20px;
+	margin-left:5%;
+	width:90%;
+	height:90%;
+	text-align:center;
+}
+body {
+	margin:0px;
+}
+.scene {
+	height:100vh;
+	background-size:cover;
+	overflow:hidden;
+	background-attachment:fixed;
+	font-family:'Noto Sans KR',sans-serif;
+	font-weight:200;
+}
+
+.scene header {
+	color:black;
+	font-weight:300;
+	max-width:50%;
+	position:relative;
+	left:25%;
+	top:50%;
+	transform:translateX(-50%);
+	transform:translateY(-50%);
+	font-size:1.5rem;
+	text-align:center;
+}
+.scene header p {
+	margin-bottom:1rem;
+}
+.scene.one{
+	height: 100vh;
+}
+.scene header h1 {
+	font-size:3rem;
+	margin-bottom:1rem;
+	font-weight:300;
+}
+.scene.one header h1:after {
+	content:'';
+	border-bottom:1px solid black;
+	width:20rem;
+	display:block;
+	margin:0 auto;
+	margin-top:1rem;
+}
+.scene.four{
+	height: 50vh;
+	margin-bottom: 10%;
+}
+.scene.four p {
+	color:black;
+}
+.scene.four h1 {
+	color:black;
+}
+.scene.four button {
+	width:100px;
+	bottom:50px;
+	position:absolute;
+}
+.ghost-button {
+	display:inline-block;
+	position:relative;
+	padding:10px 20px;
+	margin:10px 20px;
+	border:1px solid black;
+	color:black;
+	text-align:center;
+	text-decoration: none;
+
+}
+.ghost-button:hover {
+	background-color:black;
+	color:white;
+}
+.hobby{
+	font-weight: 300;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.hobby header{
+	text-align: center;
+	left:25%;
+	top:0%;
+	margin-bottom: 2%;
+	transform:translateX(-50%);
+	transform:translateY(-50%);
+}
+.icon{
+	text-align: center;
+	padding: 20px;
+	height: 270px;
+}
+.icon-item.col-md-4{
+	padding-bottom: 10%;
+}
+#user{
+	font-size: 100pt;
+}
+#music{
+	font-size: 90pt;
+	margin-bottom: 5%;
+
+}
+#bitcoin{
+	font-size: 90pt;
+	margin-bottom: 5%;
+}
+#phone{
+	font-size: 90pt;
+	margin-bottom: 5%;
+}
+#video{
+	font-size: 90pt;
+	margin-bottom: 5%;
+}
+#code{
+	font-size: 90pt;
+	margin-bottom: 5%;
+}
+#book{
+	font-size: 90pt;
+	margin-bottom: 5%;
+
+}
+#bitcoin{
+ -webkit-animation-duration: 3s;
+}
+#code{
+	-webkit-animation-duration: 3s;
+}
